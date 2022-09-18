@@ -2,4 +2,5 @@
 <resources>
     <string name="hotel_management">Hotel Management</string>
     <string name="or">OR</string>
+    <string name="enter_username">Enter Username</string>
 </resources>

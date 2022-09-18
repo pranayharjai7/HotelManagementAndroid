@@ -19,14 +19,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/emailAddressEditText"
+        android:id="@+id/usernameEditText"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/enter_your_email_address"
-        android:inputType="textEmailAddress"
+        android:hint="@string/enter_username"
+        android:inputType="textPersonName"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailAddressEditText"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -80,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
+        android:onClick="forgotPasswordClicked"
         android:text="@string/forgot_password"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="24sp"

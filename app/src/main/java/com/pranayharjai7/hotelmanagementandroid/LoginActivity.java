@@ -1,10 +1,9 @@
 package com.pranayharjai7.hotelmanagementandroid;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
 
 import com.pranayharjai7.hotelmanagementandroid.databinding.ActivityLoginBinding;
@@ -26,6 +25,10 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void registerButtonClicked(View view) {
+        Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
+    }
 
+    public void forgotPasswordClicked(View view) {
     }
 }
