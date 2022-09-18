@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hotel_management">Hotel Management</string>
+    <string name="or">OR</string>
 </resources>

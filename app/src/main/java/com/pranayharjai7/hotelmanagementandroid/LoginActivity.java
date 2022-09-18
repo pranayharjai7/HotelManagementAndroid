@@ -22,6 +22,10 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void loginButtonClicked(View view) {
-        
+
+    }
+
+    public void registerButtonClicked(View view) {
+
     }
 }

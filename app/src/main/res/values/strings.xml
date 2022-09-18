@@ -4,4 +4,7 @@
     <string name="enter_password">Enter Password</string>
     <string name="enter_your_email_address">Enter your Email Address</string>
     <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">OR</string>
 </resources>
