@@ -31,10 +31,4 @@ public class MainActivity extends AppCompatActivity {
 
         hotelManagementTextView.postDelayed(task,2000);
     }
-
-
-    public void screenClicked(View view) {
-        startActivity(intent);
-        finish();
-    }
 }

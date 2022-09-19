@@ -2,6 +2,7 @@ package com.pranayharjai7.hotelmanagementandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -19,7 +20,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public void registerButtonClicked(View view) {
-        startActivity(getParentActivityIntent());
+        setResult(RESULT_OK);
         finish();
     }
 }
