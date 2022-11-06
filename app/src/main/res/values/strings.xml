@@ -9,4 +9,9 @@
     <string name="or">OR</string>
     <string name="enter_username">Enter Username</string>
     <string name="enter_key">Enter Key</string>
+    <string name="hotel_management_caps">HOTEL MANAGEMENT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="sign_out">Sign Out</string>
 </resources>

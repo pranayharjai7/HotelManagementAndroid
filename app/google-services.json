@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "460388919999-23br5dakq6t2r80277iqhvu87dlbmcsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pranayharjai7.hotelmanagementandroid",
+            "certificate_hash": "67c8360f7e0e84839c0ea13d455afb8d1a44207a"
+          }
+        },
+        {
           "client_id": "460388919999-62atj400js02tokget46lj2aa9ieimeh.apps.googleusercontent.com",
           "client_type": 3
         }
